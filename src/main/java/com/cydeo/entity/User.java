@@ -1,12 +1,14 @@
 package com.cydeo.entity;
 
 import com.cydeo.enums.Gender;
+import jakarta.persistence.*;
 import lombok.Data;
+import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
 
-import javax.persistence.*;
-import java.time.LocalDateTime;
 
+
+@EqualsAndHashCode(callSuper = true)
 @NoArgsConstructor
 @Data
 @Entity
